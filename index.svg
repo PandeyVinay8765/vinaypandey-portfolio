@@ -1,0 +1,42 @@
+<svg width="140" height="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <!-- Gradient -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="50%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="70" cy="70" r="60" fill="#0f172a"/>
+
+  <!-- Outer Gradient Ring -->
+  <circle cx="70" cy="70" r="58" fill="none" stroke="url(#grad)" stroke-width="4"/>
+
+  <!-- Developer Text -->
+  <text 
+    x="50%" 
+    y="55%" 
+    text-anchor="middle" 
+    font-size="36" 
+    font-family="Fira Code, monospace"
+    fill="url(#grad)"
+    filter="url(#glow)"
+    dy=".3em"
+    font-weight="700"
+  >
+    &lt;VP/&gt;
+  </text>
+
+</svg>
