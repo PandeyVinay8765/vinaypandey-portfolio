@@ -1,4 +1,5 @@
 Vinay Pandey – Developer Portfolio
+https://vinaypandey-devfolio.netlify.app/
 
 A modern personal portfolio website showcasing my work, technical skills, and experience as a Software Engineer and Full-Stack Developer. The portfolio highlights my projects in web development, system programming, and algorithmic problem solving, along with my competitive programming achievements and professional experience.
 
